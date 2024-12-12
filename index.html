@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form id="registrationForm">
+        <h2>Registration Form</h2>
+        <label>Firstname</label>
+        <input type="text" name="firstname" required />
+
+        <label>Lastname</label>
+        <input type="text" name="lastname" required />
+
+        <label class="Course">Course</label>
+        <select class="course-select" required>
+            <option value="">Select Course</option>
+            <option value="BCA">BCA</option>
+            <option value="BBA">BBA</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="MBA">MBA</option>
+            <option value="MCA">MCA</option>
+            <option value="M.Tech">M.Tech</option>
+        </select>
+
+        <label>Gender</label>
+        <input type="radio" name="gender" value="Male" required /> Male
+        <input type="radio" name="gender" value="Female" required /> Female
+        <input type="radio" name="gender" value="Other" required /> Other
+
+        <label>Hobbies</label>
+        <div class="hobbies">
+            <input type="checkbox" name="hobbies" value="Programming" /> Programming
+            <input type="checkbox" name="hobbies" value="Cricket" /> Cricket
+            <input type="checkbox" name="hobbies" value="Football" /> Football
+            <input type="checkbox" name="hobbies" value="Reading Novel" /> Reading Novel
+        </div>
+
+        <label>Phone</label>
+        <input type="text" name="phone" required />
+
+        <label>Address</label>
+        <textarea cols="30" rows="5" placeholder="Enter your address"></textarea>
+
+        <label>Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label>Password</label>
+        <input type="password" id="pass" name="pass" required />
+
+        <div class="button-container">
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
