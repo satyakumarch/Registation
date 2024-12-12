@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #e0e0e0;
+  background-color: #5dbde6;
   margin: 0;
   padding: 0;
   display: flex;
@@ -10,17 +10,17 @@ body {
 }
 
 form {
-  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  background: linear-gradient(145deg, #e7ef0d, #ec7474);
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 20px 20px 60px #b3b3b3,
-              -20px -20px 60px #ffffff;
+  box-shadow: 20px 20px 60px #81e308,
+              -20px -20px 60px #df121f;
   width: 400px;
 }
 
 h2 {
   text-align: center;
-  color: #333;
+  color: #ee05a0;
 }
 
 label {
@@ -48,7 +48,9 @@ input[type="password"]:focus,
 select:focus {
   border-color: #007bff;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  background-color: rgb(140, 233, 141);
   outline: none;
+  font-size: 20px;
 }
 
 input[type="radio"],
@@ -58,8 +60,8 @@ input[type="checkbox"] {
 
 input[type="submit"],
 input[type="reset"] {
-  background: linear-gradient(145deg, #007bff, #0056b3);
-  color: #ffffff;
+  background: linear-gradient(145deg, #f7fafd, #0056b3);
+  color: #1f85c9;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -71,7 +73,7 @@ input[type="reset"] {
 
 input[type="submit"]:hover,
 input[type="reset"]:hover {
-  background: linear-gradient(145deg, #0056b3, #003f7f);
+  background: linear-gradient(145deg, #bdc6d0, #eceff1);
 }
 
 .button-container {
